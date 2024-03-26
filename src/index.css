@@ -1,3 +1,24 @@
 @tailwind base;
+<<<<<<< HEAD
+
+@tailwind components;
+
+@tailwind utilities;
+=======
 @tailwind components;
 @tailwind utilities;
+
+/*.header-bg{*/
+/*    background-image: url("assets");*/
+/*}*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+>>>>>>> mle4nik
