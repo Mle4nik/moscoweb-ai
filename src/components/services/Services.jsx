@@ -2,8 +2,7 @@ import React from 'react';
 
 const Services = () => {
 	return (
-		<div className='font-[Poppins]'>
-			sadsadasd
+		<div className='font-['Geist']'>
 		</div>
 	);
 };
