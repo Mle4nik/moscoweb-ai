@@ -1,5 +1,8 @@
 @tailwind base;
+<<<<<<< HEAD
+
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 
 @layer base {
@@ -31,3 +34,25 @@
 		src: url('fonts/Montserrat/Montserrat-Regular.ttf') format('woff2');
 	}
 }
+=======
+
+@tailwind utilities;
+=======
+@tailwind components;
+@tailwind utilities;
+
+/*.header-bg{*/
+/*    background-image: url("assets");*/
+/*}*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+>>>>>>> mle4nik
+>>>>>>> main
