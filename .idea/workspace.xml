@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="800fca89-9343-491f-ad4e-ada070fb9687" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/header/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/header/back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/header/button-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/header/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/header/socials.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="800fca89-9343-491f-ad4e-ada070fb9687" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
