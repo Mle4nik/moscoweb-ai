@@ -69,7 +69,7 @@ export default function Integration() {
                                 <p className="text-[#7C7E9D] text-lg font-bold font-[Montserrat] tracking-wide">Рассылки в мессенджеры с автоматическимим сценариями для прогрева аудитории</p>
                             </div>
                         </div>
-                        <div className='shadow-[0_0_60px_-20px_rgba(0,0,0,0.2)] rounded-3xl shadow-sm flex items-start p-9'>
+                        <div className='shadow-[0_0_60px_-20px_rgba(0,0,0,0.2)] rounded-3xl flex items-start p-9'>
                             <img className="w-16 mr-5" src={icon7} alt=""/>
                             <div>
                                 <h4 className="text-2xl mb-2 font-[Geist] font-black tracking-wide">Прием оплат</h4>
