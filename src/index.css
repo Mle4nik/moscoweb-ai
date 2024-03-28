@@ -46,3 +46,13 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+ul {
+	list-style: disc;
+}
+
+#rectangle {
+	height: 130px;
+	width: 100vw;
+	background: linear-gradient(to bottom right, #F3F5FF 50%, white 50%);
+}
