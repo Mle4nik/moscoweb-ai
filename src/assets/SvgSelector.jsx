@@ -86,7 +86,23 @@ const SvgSelector = ({name}) => {
 			)
 		case 'chrome':
 			return (
-				<img src='/src/assets/chrome.png'/>
+				<img src='/src/assets/chrome.png' alt='chrome'/>
+			)
+		case 'settings':
+			return (
+				<img src="/src/assets/services/settings.png" alt="settings"/>
+			)
+		case 'shop':
+			return (
+				<img src="/src/assets/services/shop.png" alt="shop"/>
+			)
+		case 'work':
+			return (
+				<img src="/src/assets/services/work.png" alt="work"/>
+			)
+		case 'brain':
+			return (
+				<img src="/src/assets/services/brain.png" alt="brain"/>
 			)
 		default:
 			return <svg></svg>;
