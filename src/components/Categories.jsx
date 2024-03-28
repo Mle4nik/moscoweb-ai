@@ -14,7 +14,7 @@ export default function Categories() {
                 <ul className='border-solid border-gray-500 mx-11 font-[Geist]'>
                     <li className='border-y border-t-2 border-slate-300 py-10 flex justify-between'>
                         <div>
-                            <h3 className="text-[#1D0072] font-bold font-['Montserrat'] text-4xl">
+                            <h3 className="text-[#1D0072] font-bold font-[Montserrat] text-4xl">
                                 Одежда/Обувь
                             </h3>
                         </div>
@@ -36,7 +36,7 @@ export default function Categories() {
                     </li>
                     <li className='border-y py-10 border-slate-300 flex justify-between'>
                         <div>
-                            <h3 className="text-[#1D0072] font-bold font-['Montserrat'] text-4xl">
+                            <h3 className="text-[#1D0072] font-bold font-[Montserrat] text-4xl">
                                 Техника
                             </h3>
                         </div>
@@ -57,7 +57,7 @@ export default function Categories() {
                     </li>
                     <li className='border-y py-10 border-slate-300 flex justify-between'>
                         <div>
-                            <h3 className="text-[#1D0072] font-bold font-['Montserrat'] text-4xl">
+                            <h3 className="text-[#1D0072] font-bold font-[Montserrat] text-4xl">
                                 Общепит
                             </h3>
                         </div>
@@ -70,7 +70,7 @@ export default function Categories() {
                     </li>
                     <li className='border-y py-10 border-slate-300 flex justify-between'>
                         <div>
-                            <h3 className="text-[#1D0072] font-bold font-['Montserrat'] text-4xl">
+                            <h3 className="text-[#1D0072] font-bold font-[Montserrat] text-4xl">
                                 Медиа
                             </h3>
                         </div>
@@ -84,7 +84,7 @@ export default function Categories() {
                     </li>
                     <li className='border-y border-b-2 py-10 border-slate-300 flex justify-between'>
                         <div>
-                            <h3 className="text-[#1D0072] font-bold font-['Montserrat'] text-4xl">
+                            <h3 className="text-[#1D0072] font-bold font-[Montserrat] text-4xl">
                                 Услуги
                             </h3>
                         </div>
