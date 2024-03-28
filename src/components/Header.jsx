@@ -47,7 +47,7 @@ const Header = () => {
                         <h2 className="text-5xl font-black">Мы собрали всё, что вам нужно</h2>
                         <p className="text-xl font-semibold mt-4">Собирайте ботов сразу</p>
                     </div>
-                    <div className="mx-16">
+                    <div className="ml-16 mr-3">
                         <img src={SOCIALS} alt=""/>
                     </div>
                 </div>
