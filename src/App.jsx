@@ -8,12 +8,14 @@ import Faqs from "./components/Faqs.jsx";
 function App() {
     return (
         <>
-            <Header/>
-            <Categories />
-            <Services/>
-            <Integration />
-            <Subscription />
-            <Faqs />
+            <div>
+                <Header/>
+                <Categories />
+                <Services/>
+                <Integration />
+                {/*<Subscription />*/}
+                {/*<Faqs />*/}
+            </div>
         </>
     )
 }

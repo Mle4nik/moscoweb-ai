@@ -9,38 +9,38 @@ export default function Integration() {
     return (
         <>
             <div className="flex justify-center items-center">
-                <div className="p-3 font-bold text-6xl text-center w-full font-['Geist']">
+                <div className="p-3 mt-24 font-bold text-5xl text-center w-full font-['Geist']">
                     MoscoAI bot интегрирован <br /> с множеством популярных <br /> сервисов
                 </div>
             </div>
-            <div className='p-9'>
-                <div className=" font-['Montserrat'] flex justify-center items-center text-center text-3xl text-slate-500 font-medium ">
+            <div className='pt-5 pb-20'>
+                <div className=" font-['Montserrat'] flex justify-center items-center text-center text-2xl text-slate-500 font-medium">
                     Мы сделали удобные блоки в конструкторе, чтобы вам не <br /> приходилось
                     разбираться со сложными интеграциями
                 </div>
             </div>
 
-            <div className='w-screen flex justify-center my-10 space-x-8 z-10'>
+            <div className='w-screen flex justify-center my-6 space-x-16'>
                 <div className='size-1/5'>
-                    <img src={icon1} />
-                    <div className='text-4xl py-5 font-bold'>Google-таблицы</div>
-                    <div className=' text-slate-500 py-1 text-xl font-semibold font-[Montserrat]'>Добавляйте строки, получайте значения из ячеек и многое другое</div>
+                    <img className="w-12" src={icon1} />
+                    <div className='text-2xl py-5 font-bold'>Google-таблицы</div>
+                    <div className=' text-slate-500 text-xl font-semibold font-[Montserrat]'>Добавляйте строки, получайте значения из ячеек и многое другое</div>
                 </div>
-                <div  className='size-1/5 '>
-                    <img src={icon2} />
-                    <div className='text-4xl py-5 font-bold'>Платежи</div>
-                    <div className='text-slate-500 py-1 text-xl font-semibold font-[Montserrat]'>Получайте платежи через популярные сервисы</div>
+                <div className='size-1/5'>
+                    <img className="w-16" src={icon2} />
+                    <div className='text-2xl py-5 font-bold'>Платежи</div>
+                    <div className='text-slate-500 text-xl font-semibold font-[Montserrat]'>Получайте платежи через популярные сервисы</div>
                 </div>
-                <div  className='size-1/5'>
-                    <img src={icon3} />
-                    <div className='text-4xl py-5 font-bold'>CRM</div>
-                    <div className='text-slate-500 py-1 text-xl font-semibold font-[Montserrat]'>Отправляйте заявки из бота в CRM</div>
+                <div className='size-1/5'>
+                    <img className="w-16" src={icon3} />
+                    <div className='text-2xl py-5 font-bold'>CRM</div>
+                    <div className='text-slate-500 text-xl font-semibold font-[Montserrat]'>Отправляйте заявки из бота в CRM</div>
                 </div>
 
-                <div  className='size-1/5'>
-                    <img src={icon4} />
-                    <div className='text-4xl py-5 font-bold'>GetCourse</div>
-                    <div className='text-slate-500 py-1 text-xl font-semibold font-[Montserrat]'>Добавляйте пользователей в GetCourse, отправляйте ссылки на оплату</div>
+                <div className='size-1/5'>
+                    <img className="w-16" src={icon4} />
+                    <div className='text-2xl py-5 font-bold'>GetCourse</div>
+                    <div className='text-slate-500 text-xl font-semibold font-[Montserrat]'>Добавляйте пользователей в GetCourse, отправляйте ссылки на оплату</div>
                 </div>
 
             </div>
