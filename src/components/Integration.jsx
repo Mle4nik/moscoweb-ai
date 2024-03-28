@@ -3,6 +3,9 @@ import icon1 from '../assets/integration/image 19.svg'
 import icon2 from '../assets/integration/image 20.svg'
 import icon3 from '../assets/integration/image 21.svg'
 import icon4 from '../assets/integration/image 22.svg'
+import icon5 from '../assets/integration/image 25.svg'
+import icon6 from '../assets/integration/image 26.svg'
+import icon7 from '../assets/integration/image 27.svg'
 // import oval from '../assets/oval.svg'
 
 export default function Integration() {
@@ -46,20 +49,36 @@ export default function Integration() {
             </div>
 
             <div>
-                <div className='my-16 font-bold text-6xl text-center font-[Geist] '>А еще у нас есть</div>
+                <div className='mt-32 mb-12 font-bold text-5xl text-center font-[Geist] '>А еще у нас есть</div>
             </div>
 
             <div>
-                <div className='grid grid-rows-2 gap-4 m-2'>
-                    <div className='w-full h-60 border rounded-3xl'>GPT</div>
-                    <div className='w-1/2 h-60 border rounded-3xl'>segment</div>
-                    <div className='w-1/2 h-60 border rounded-3xl shadow-sm'>oplata</div>
+                <div className='flex flex-col mx-12 mb-32'>
+                    <div className='w-full shadow-[0_0_60px_-20px_rgba(0,0,0,0.2)] rounded-3xl flex items-start p-9 mb-6'>
+                        <img className="w-16 mr-5" src={icon5} alt=""/>
+                        <div>
+                            <h4 className="text-2xl mb-2 font-[Geist] font-black tracking-wide">Прямая интеграция с GPT</h4>
+                            <p className="text-[#7C7E9D] text-lg font-bold font-[Montserrat] tracking-wide">Вам не нужен аккаунт OpenAi. Просто используйте блок “Ответ через ChatGPT”, указываете промт для GPT и все будет работать!</p>
+                        </div>
+                    </div>
+                    <div className="flex space-x-6">
+                        <div className='shadow-[0_0_60px_-20px_rgba(0,0,0,0.2)] rounded-3xl flex items-start p-9'>
+                            <img className="w-16 mr-5" src={icon6} alt=""/>
+                            <div>
+                                <h4 className="text-2xl mb-2 font-[Geist] font-black tracking-wide">Сегментированные авто-рассылки</h4>
+                                <p className="text-[#7C7E9D] text-lg font-bold font-[Montserrat] tracking-wide">Рассылки в мессенджеры с автоматическимим сценариями для прогрева аудитории</p>
+                            </div>
+                        </div>
+                        <div className='shadow-[0_0_60px_-20px_rgba(0,0,0,0.2)] rounded-3xl shadow-sm flex items-start p-9'>
+                            <img className="w-16 mr-5" src={icon7} alt=""/>
+                            <div>
+                                <h4 className="text-2xl mb-2 font-[Geist] font-black tracking-wide">Прием оплат</h4>
+                                <p className="text-[#7C7E9D] text-lg font-bold font-[Montserrat] tracking-wide">Получайте платежи прямо в чат-боте через популярные платежные системы</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
-
-
         </>
     );
 }
