@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="800fca89-9343-491f-ad4e-ada070fb9687" name="Changes" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Faqs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faqs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Integration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Integration.jsx" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categories/bot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/footer/bot3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/footer/footer_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/header/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/header/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/header/button-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/header/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/header/socials.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/integration/image 19.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/integration/image 20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/integration/image 21.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/integration/image 22.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Categories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Faqs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Integration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Subscription.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/GC.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SvgSelector.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/armoCRM.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/chrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/gpt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image 28.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/message.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sheet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/umoney.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/yandex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.jsx" afterDir="false" />
+>>>>>>> services
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2eEEFfbX4gXHgKD9U3H13qe3FUE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/mle4nik/moscoweb-ai/src/assets/integration",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging services&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mle4nik/moscoweb-ai/src/assets/categories&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+>>>>>>> services
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/integration" />
+      <recent name="$PROJECT_DIR$/src/assets/categories" />
+      <recent name="$PROJECT_DIR$/src/assets/header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
+      <recent name="$PROJECT_DIR$/src/assets/faqs" />
+    </key>
+=======
+      <recent name="$PROJECT_DIR$/src/components/services/slides" />
+      <recent name="$PROJECT_DIR$/src/components/services" />
+      <recent name="$PROJECT_DIR$/src/assets/services" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+>>>>>>> services
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="800fca89-9343-491f-ad4e-ada070fb9687" name="Changes" comment="" />
+      <created>1711461235167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711461235167</updated>
+      <workItem from="1711461236182" duration="3762000" />
+      <workItem from="1711481630773" duration="6650000" />
+<<<<<<< HEAD
+      <workItem from="1711653638829" duration="4486000" />
+=======
+      <workItem from="1711651117362" duration="5416000" />
+      <workItem from="1711656643412" duration="3430000" />
+>>>>>>> services
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
