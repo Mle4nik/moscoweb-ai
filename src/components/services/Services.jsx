@@ -34,7 +34,7 @@ const Services = () => {
 		<div
 			className='font-[Geist] max-w-[1365px] w-full m-auto flex flex-col items-center justify-center mt-[108px]'>
 			<h2 className='font-bold text-center text-[45px] maw-w-[399px]'>Все сервисы <br/> в одной подписке</h2>
-			<div className='flex items-center justify-center gap-x-12 w-full mt-12.5'>
+			<div className='flex items-center justify-center gap-x-9 w-full mt-12.5'>
 				{serviceItems?.map((item) => {
 					return (
 						<button key={item.title}
