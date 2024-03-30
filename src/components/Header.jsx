@@ -17,7 +17,7 @@ const Header = () => {
                                     <li className="cursor-pointer mr-4 hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300">Функции</li>
                                     <li className="cursor-pointer hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300">Документация</li>
                                 </ul>
-                                <div className="w-32">
+                                <div className="w-32 cursor-pointer">
                                     <img src={LOGO} alt=""/>
                                 </div>
                                 <ul className="flex justify-center items-center list-none">
