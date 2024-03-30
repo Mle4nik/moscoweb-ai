@@ -3,7 +3,7 @@ import BOT from '../assets/categories/bot.svg'
 
 export default function Categories() {
     return (
-        <>
+        <div className="w-screen">
             <div className="w-[50vw] absolute right-0 top-[95rem]">
                 <img src={BOT} alt="bot1"/>
             </div>
@@ -99,6 +99,6 @@ export default function Categories() {
                     </li>
                 </ul>
             </div>
-        </>
+        </div>
     );
 }

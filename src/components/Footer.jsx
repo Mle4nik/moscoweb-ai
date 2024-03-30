@@ -14,7 +14,7 @@ export default function Footer() {
 
     return (
         <>
-            <div className="bg-light-purple">
+            <div className="bg-light-purple w-screen">
                 <div
                     className="h-auto px-12 w-full font-normal overflow-hidden tracking-tighter max-w-[1440px] mx-auto">
                     <div className="font-normal py-16 text-8xl tracking-tighter text-white font-[Geist] ">
