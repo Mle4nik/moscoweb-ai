@@ -38,7 +38,7 @@ const Services = () => {
 				{serviceItems?.map((item) => {
 					return (
 						<button key={item.title}
-								className={`${activeBtn === item.title ? 'bg-[#F3F5FF]' : 'bg-transparent'} flex item-center justify-center py-3.5 px-11 border-2 border-[#F3F5FF] rounded-full min-w-max text-center text-[#4457FF] text-[22px] transition`}
+								className={`${activeBtn === item.title ? 'bg-[#F3F5FF]' : 'bg-transparent'} flex item-center justify-center py-2.5 px-7.5 border-2 border-[#F3F5FF] rounded-full min-w-max text-center text-[#4457FF] text-[22px] transition`}
 								onClick={() => handleClick(item.title)}>
 							{item.title}
 						</button>
