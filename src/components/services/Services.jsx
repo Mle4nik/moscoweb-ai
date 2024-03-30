@@ -30,10 +30,10 @@ const Services = () => {
 		},
 	]
 
-	const [activeComponent, setActiveComponent] = useState(serviceItems[0].component)
+	const [activeTitle, setActiveTitle] = useState(serviceItems[0].title)
 
-	const handleClick = (component) => {
-		setActiveComponent(component)
+	const handleClick = (title) => {
+		setActiveTitle(title)
 	}
 
 	return (
@@ -44,8 +44,8 @@ const Services = () => {
 				{serviceItems?.map((item) => {
 					return (
 						<button key={item.title}
-								className={`${activeComponent === item.title ? 'bg-[#F3F5FF]' : 'bg-transparent'} flex item-center justify-center py-2.5 px-7.5 border-2 border-[#F3F5FF] rounded-full min-w-max text-center text-[#4457FF] text-[22px] transition`}
-								onClick={() => handleClick(item.component)}>
+								className={`${activeTitle === item.title ? 'bg-[#F3F5FF]' : 'bg-transparent'} flex item-center justify-center py-2.5 px-7.5 border-2 border-[#F3F5FF] rounded-full min-w-max text-center text-[#4457FF] text-[22px] transition`}
+								onClick={() => handleClick(item.title)}>
 							{item.title}
 						</button>
 					)
@@ -53,7 +53,7 @@ const Services = () => {
 			</div>
 			<div
 				className='border-[0.75px] rounded-[50px] border-gray-300 flex flex-col items-center justify-center w-full h-full mt-7.5 pb-[35px] relative overflow-hidden'>
-				{activeComponent}
+				{serviceItems.find(item => item.title === activeTitle).component}
 				<ActionButton>Заказать бота под ключ</ActionButton>
 			</div>
 		</div>
