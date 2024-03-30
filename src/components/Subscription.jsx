@@ -3,8 +3,8 @@ import React from 'react';
 export default function Subscription() {
   return (
     <>
-      <div className="flex justify-center items-center text-5xl text-center font-bold w-full h-96 bg-light-pink">
-        <div className="w-full font-[Geist] ">
+      <div className="  xl:mx-auto flex justify-center items-center text-5xl text-center font-bold w-full h-96 bg-light-pink">
+        <div className=" mx-auto w-full font-[Geist] ">
           Бот дает исчерпывающий <br /> ответ на запросы покупателей <br /> и
           ведет их к покупке
         </div>
