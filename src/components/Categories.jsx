@@ -5,7 +5,7 @@ export default function Categories() {
     return (
         <>
             <div className="w-[50vw] absolute right-0 top-[95rem]">
-                <img src={BOT} alt=""/>
+                <img src={BOT} alt="bot1"/>
             </div>
             <div className='w-screen text-[#0B0B33] max-w-[1440px] mx-auto'>
                 <div className='w-full text-5xl font-bold text-center my-10 mb-20'>

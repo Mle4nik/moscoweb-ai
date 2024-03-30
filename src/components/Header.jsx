@@ -2,6 +2,7 @@ import React from 'react';
 import LOGO from '../assets/header/logo.svg'
 import buttonArrow from '../assets/header/button-arrow.svg'
 import SOCIALS from '../assets/header/socials.svg'
+import {IoMdArrowForward} from "react-icons/io";
 
 const Header = () => {
     return (
@@ -10,12 +11,13 @@ const Header = () => {
                 <div className="flex flex-col justify-center items-center w-screen">
                     <div className="w-screen bg-[#F3F5FF] overflow-hidden max-w-[1440px]">
                         <div>
-                            <div className="flex justify-between items-center text-md font-bold py-8 mx-16 font-[Geist] text-xl">
+                            <div
+                                className="flex justify-between items-center text-md font-bold py-8 mx-16 font-[Geist] text-xl">
                                 <ul className="flex justify-center items-center list-none">
                                     <li className="cursor-pointer mr-4 hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300">Функции</li>
                                     <li className="cursor-pointer hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300">Документация</li>
                                 </ul>
-                                <div className="w-32">
+                                <div className="w-32 cursor-pointer">
                                     <img src={LOGO} alt=""/>
                                 </div>
                                 <ul className="flex justify-center items-center list-none">
@@ -30,13 +32,18 @@ const Header = () => {
                                 <div className="flex flex-col ml-36 pt-20">
                                     <div className="text-white">
                                         <h1 className="text-[115px] font-semibold font-['Poppins']">Moscobot</h1>
-                                        <p className="font-[Geist] text-2xl font-medium pl-2">Создаем чат-ботов которые: <br/> увеличивают ваши продажии <br/> консультируют клиентов</p>
+                                        <p className="font-[Geist] text-2xl font-medium pl-2">Создаем чат-ботов
+                                            которые: <br/> увеличивают ваши продажии <br/> консультируют клиентов</p>
                                     </div>
                                     <div className="mt-40 ml-3">
                                         <a href="#">
-                                            <div className="font-[Geist] flex justify-center items-center pl-2 bg-white w-72 text-md font-semibold rounded-full py-6 hover:w-80 hover:bg-[#835BF7] hover:text-white all duration-300 active:bg-[#451CC0]">
+                                            <div
+                                                className="font-[Geist] flex justify-center items-center pl-2 bg-white w-72 text-md font-semibold rounded-full py-4 hover:w-80 hover:bg-[#835BF7] hover:text-white all duration-300 active:bg-[#451CC0]">
                                                 Заказать бота под ключ
-                                                <img className="ml-5 font-bold w-6 hover:text-white" src={buttonArrow} alt=""/>
+                                                {/*<img className="ml-5 font-bold w-6 hover:text-white" src={buttonArrow}*/}
+                                                {/*     */}
+                                                {/*     alt=""/>*/}
+                                                <IoMdArrowForward className="ml-5 font-bold text-4xl hover:text-white"/>
                                             </div>
                                         </a>
                                     </div>
