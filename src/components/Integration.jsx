@@ -11,11 +11,11 @@ import icon7 from '../assets/integration/image 27.svg'
 export default function Integration() {
     return (
         <>
-            <div className="flex justify-center items-center">
-                <div className="p-3 mt-24 font-bold text-5xl text-center w-full font-[Geist]">
+
+                <div className="xl:mx-auto p-3 mt-24 font-bold text-5xl text-center w-full font-[Geist]">
                     MoscoAI bot интегрирован <br /> с множеством популярных <br /> сервисов
                 </div>
-            </div>
+            
             <div className='pt-5 pb-20'>
                 <div className=" font-[Montserrat] flex justify-center items-center text-center text-2xl text-slate-500 font-medium">
                     Мы сделали удобные блоки в конструкторе, чтобы вам не <br /> приходилось
