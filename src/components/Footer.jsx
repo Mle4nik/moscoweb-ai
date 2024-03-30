@@ -5,8 +5,8 @@ import bot3 from '../assets/footer/bot3.svg';
 export default function Footer() {
   return (
     <>
-      <div>
-        <div className="h-svh bg-light-purple px-12 w-full font-normal overflow-hidden tracking-tighter ">
+      <div className="bg-light-purple">
+        <div className="h-auto px-12 w-full font-normal overflow-hidden tracking-tighter max-w-[1440px] mx-auto">
           <div className="font-normal py-16 text-8xl tracking-tighter text-white font-[Geist] ">
             sale@moscoweb.agency
           </div>
