@@ -2,6 +2,9 @@ import React, {useState} from 'react';
 import ActionButton from "./ui/ActionButton.jsx";
 import SaleSlide from "./slides/SaleSlide.jsx";
 import SettingsSlide from "./slides/SettingsSlide.jsx";
+import ShopTgSlide from "./slides/ShopTgSlide.jsx";
+import HowWorkSlide from "./slides/HowWorkSlide.jsx";
+import IntegrationSlide from "./slides/IntegrationSlide.jsx";
 
 const Services = () => {
 	const handleClick = (btn) => {
@@ -29,7 +32,7 @@ const Services = () => {
 
 	return (
 		<div
-			className='font-[Geist] font-bold max-w-[1820px] w-full m-auto flex flex-col items-center justify-center mt-[193px]'>
+			className='font-[Geist] font-bold max-w-[1820px] w-full m-auto flex flex-col items-center justify-center mt-[193px] overflow-hidden'>
 			<h2 className='text-6xl'>Все сервисы в одной подписке</h2>
 			<div className='flex items-center justify-center gap-x-12 w-full mt-[70px]'>
 				{serviceItems?.map((item) => {
@@ -45,8 +48,11 @@ const Services = () => {
 
 			<div
 				className='border-[2px] rounded-[50px] border-black border-opacity-40 flex flex-col items-center justify-center w-full h-full mt-7.5 pb-12.5 relative'>
+				{/*<SettingsSlide/>*/}
 				{/*<SaleSlide />*/}
-				<SettingsSlide/>
+				{/*<ShopTgSlide/>*/}
+				<HowWorkSlide/>
+				{/*<IntegrationSlide/>*/}
 				<ActionButton>Заказать бота под ключ</ActionButton>
 			</div>
 		</div>
