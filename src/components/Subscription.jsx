@@ -1,8 +1,12 @@
 import React from 'react';
+import BOT3 from '../assets/subscription/bot3.svg'
 
 export default function Subscription() {
   return (
     <>
+      <div className="xl:mr-36 absolute right-0 ">
+        <img src={BOT3} alt="bot2"/>
+      </div>
       <div className="flex justify-center items-center text-5xl text-center font-bold w-full h-96 bg-light-pink">
         <div className="w-full font-[Geist] ">
           Бот дает исчерпывающий <br /> ответ на запросы покупателей <br /> и
