@@ -113,3 +113,18 @@ ul {
 	width: 100vw;
 	background: linear-gradient(to bottom right, #F3F5FF 50%, white 50%);
 }
+
+.link:after {
+	content: "";
+	position: absolute;
+	background: #fff;
+	height: 3px;
+	width: 100px;
+	left: 0;
+	bottom: 0;
+	transition: 0.3s;
+}
+
+.link:hover:after {
+	width: 100%;
+}
