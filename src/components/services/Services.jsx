@@ -32,7 +32,7 @@ const Services = () => {
 
 	return (
 		<div
-			className='font-[Geist] font-bold max-w-[1820px] w-full m-auto flex flex-col items-center justify-center mt-[193px]'>
+			className='font-[Geist] font-bold max-w-[1820px] w-full m-auto flex flex-col items-center justify-center mt-[193px] overflow-hidden'>
 			<h2 className='text-6xl'>Все сервисы в одной подписке</h2>
 			<div className='flex items-center justify-center gap-x-12 w-full mt-[70px]'>
 				{serviceItems?.map((item) => {

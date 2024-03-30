@@ -4,7 +4,7 @@ export default function Faqs() {
   return (
     <>
     <div>
-        <div className='mx-auto tracking-wide py-24 font-[Geist] '>
+        <div className='mx-auto tracking-wide py-24 font-[Geist] max-w-[1440px]'>
             <div className="font-bold text-4xl text-center mb-12">
                 Частые вопросы
             </div>

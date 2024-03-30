@@ -109,11 +109,7 @@ ul {
 }
 
 #rectangle {
-	height: 130px;
+	height: 150px;
 	width: 100vw;
 	background: linear-gradient(to bottom right, #F3F5FF 50%, white 50%);
-}
-
-body {
-	max-width: 1920px;
 }

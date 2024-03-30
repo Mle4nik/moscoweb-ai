@@ -10,7 +10,7 @@ import icon7 from '../assets/integration/image 27.svg'
 
 export default function Integration() {
     return (
-        <>
+        <div className="max-w-[1440px] mx-auto">
             <div className="flex justify-center items-center">
                 <div className="p-3 mt-24 font-bold text-5xl text-center w-full font-[Geist]">
                     MoscoAI bot интегрирован <br /> с множеством популярных <br /> сервисов
@@ -23,7 +23,7 @@ export default function Integration() {
                 </div>
             </div>
 
-            <div className='w-screen flex justify-center my-6 space-x-16'>
+            <div className='w-full flex justify-center my-6 space-x-16'>
                 <div className='size-1/5'>
                     <img className="w-12" src={icon1} />
                     <div className='text-2xl py-5 font-bold'>Google-таблицы</div>
@@ -79,6 +79,6 @@ export default function Integration() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
