@@ -1,11 +1,12 @@
 import React from 'react';
 import Title from "../ui/Title.jsx";
+import message from '/src/assets/services/message.png';
 
 const IntegrationSlide = () => {
 	return (
 		<div className='flex items-start justify-between w-full h-full mb-10 pl-21'>
 			<div className='w-1/2 flex flex-col items-start justify-start pt-20 font-[Roboto]'>
-				<img src='/src/assets/services/message.png' alt='message' className='h-[83px] w-[83px]'/>
+				<img src={message} alt='message' className='h-[83px] w-[83px]'/>
 				<Title className='mt-15'>Чаты с пользователями</Title>
 				<div className='flex flex-col items-start justify-start gap-y-2.5 mt-7.5'>
 					<Title className='font-[Roboto]'>Диалоги из всех мессенджеров</Title>
