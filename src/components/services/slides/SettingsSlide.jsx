@@ -1,11 +1,13 @@
 import React from 'react';
 import Title from "../ui/Title.jsx";
+import settings from '/src/assets/services/settings.png';
+import botillustration from "/src/assets/services/botillustration.png";
 
 const SettingsSlide = () => {
 	return (
 	<div className='flex items-start justify-between w-full h-full mb-10 pl-21'>
 		<div className='w-1/2 flex flex-col items-start justify-start pt-15'>
-			<img src='/src/assets/services/settings.png' alt='settings' className='h-[83px] w-[83px]'/>
+			<img src={settings} alt='settings' className='h-[83px] w-[83px]'/>
 			<Title className='mt-15'>Конструктор чат-бота интерактивного
 				ответа.</Title>
 			<Title className='mt-3'>Поддержка на частые вопросы 24/7</Title>
@@ -21,7 +23,7 @@ const SettingsSlide = () => {
 			</ul>
 		</div>
 		<div className='w-1/2 bg-[#F3F5FF] absolute right-0 h-full'>
-			<img src="/src/assets/services/botillustration.png" alt="botillustration" className='relative top-[144px] -left-[128px]'/>
+			<img src={botillustration} alt="botillustration" className='relative top-[144px] -left-[128px]'/>
 		</div>
 	</div>
 	);

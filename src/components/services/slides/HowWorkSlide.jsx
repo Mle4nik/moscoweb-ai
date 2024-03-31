@@ -1,11 +1,12 @@
 import React from 'react';
 import Title from "../ui/Title.jsx";
+import brain from '/src/assets/services/brain.png';
 
 const HowWorkSlide = () => {
 	return (
 		<div className='flex items-start justify-between w-full h-full mb-10 pl-21'>
 			<div className='w-1/2 flex flex-col items-start justify-start pt-20 font-[Roboto]'>
-				<img src='/src/assets/services/brain.png' alt='brain' className='h-[83px] w-[83px]'/>
+				<img src={brain} alt='brain' className='h-[83px] w-[83px]'/>
 				<Title className='mt-15'>MoscoAi на основе ChatGpt</Title>
 				<div className='flex flex-col items-start justify-start mt-15 gap-y-4.5 max-w-[519px]'>
 					<Title className='font-[Roboto]'>Умный чат-бот за 5 минут</Title>
