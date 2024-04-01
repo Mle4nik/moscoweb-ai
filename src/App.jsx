@@ -1,22 +1,15 @@
-import Services from "./components/services/Services.jsx";
-import Header from "./components/Header.jsx";
-import Categories from "./components/Categories.jsx";
-import Integration from "./components/Integration.jsx";
-import Subscription from "./components/Subscription.jsx";
-import Faqs from "./components/Faqs/Faqs.jsx";
-import Footer from "./components/Footer.jsx";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Main from "./components/pages/Main.jsx";
+import Form from "./components/pages/Form.jsx";
 
 function App() {
     return (
-        <>
-            <Header/>
-            <Categories />
-            <Services/>
-            <Integration />
-            <Subscription />
-            <Faqs />
-            <Footer />
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Main />} />
+                <Route path="/form" element={<Form />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
 

@@ -4,10 +4,12 @@ import bot3 from '../assets/footer/bot3.svg';
 
 export default function Footer() {
 
-    const Link = ({link, children, className}) => {
+    const Link = ({link, children}) => {
         return (
             <div className="link">
-                <a className={className} href={link} target="_blank">{children}</a>
+                <a className="group transition duration-300" href={link} target="_blank">{children}
+                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-1 bg-white"></span>
+                </a>
             </div>
         )
     }
@@ -18,7 +20,7 @@ export default function Footer() {
                 <div
                     className="h-auto px-12 w-full font-normal overflow-hidden tracking-tighter max-w-[1440px] mx-auto">
                     <div className="font-normal py-16 text-8xl tracking-tighter text-white font-[Geist] ">
-                        <a href="sale@moscoweb.agency" target="_blank">sale@moscoweb.agency</a>
+                        <a href="mailto:sale@moscoweb.agency" target="_blank">sale@moscoweb.agency</a>
                     </div>
                     <div className="font-[Geist] tracking-tighter mb-8 font-medium text-[#B4C0FF] text-6xl">
                         Напишите нам
@@ -34,7 +36,7 @@ export default function Footer() {
                             </div>
                             <div
                                 className='flex flex-col tracking-tighter justify-center items-end text-white text-6xl gap-4 font-[Geist] font-medium mb-16'>
-                                <Link className="border-b-4 border-white" link="https://www.youtube.com/@agatsarsky">Youtube</Link>
+                                <Link link="https://www.youtube.com/@agatsarsky">Youtube</Link>
                                 <Link link="https://t.me/moscoweb">t.me/moscoweb</Link>
                                 <Link link="https://www.instagram.com/mweb.agency/">inst.com/mweb.agency</Link>
                             </div>

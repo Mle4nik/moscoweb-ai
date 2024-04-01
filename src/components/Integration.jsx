@@ -65,10 +65,10 @@ export default function Integration() {
                 <div>
                     <div className='flex flex-col mx-12 mb-32'>
                         <div
-                            className='w-full shadow-[0_0_60px_-20px_rgba(0,0,0,0.2)] rounded-3xl flex items-start p-9 mb-6'>
-                            <img className="w-16 mr-5" src={icon5} alt=""/>
+                            className='w-full shadow-[0_0_40px_-20px_rgba(0,0,0,0.3)] rounded-3xl flex items-start p-9 mb-6'>
+                            <img className="w-16 mt-2 mr-5" src={icon5} alt=""/>
                             <div>
-                                <h4 className="text-2xl mb-2 font-[Geist] font-black tracking-wide">Прямая интеграция с
+                                <h4 className="text-[29px] mb-2 font-[Geist] font-black tracking-wide">Прямая интеграция с
                                     GPT</h4>
                                 <p className="text-[#7C7E9D] text-lg font-bold font-[Montserrat] tracking-wide">Вам не
                                     нужен аккаунт OpenAi. Просто используйте блок “Ответ через ChatGPT”, указываете
@@ -76,19 +76,19 @@ export default function Integration() {
                             </div>
                         </div>
                         <div className="flex space-x-6">
-                            <div className='shadow-[0_0_60px_-20px_rgba(0,0,0,0.2)] rounded-3xl flex items-start p-9'>
-                                <img className="w-16 mr-5" src={icon6} alt=""/>
+                            <div className='shadow-[0_0_40px_-20px_rgba(0,0,0,0.3)] rounded-3xl flex items-start p-9 h-60'>
+                                <img className="w-16 mt-2 mr-5" src={icon6} alt=""/>
                                 <div>
-                                    <h4 className="text-2xl mb-2 font-[Geist] font-black tracking-wide">Сегментированные
+                                    <h4 className="text-[29px] mb-2 font-[Geist] font-black tracking-wide">Сегментированные
                                         авто-рассылки</h4>
                                     <p className="text-[#7C7E9D] text-lg font-bold font-[Montserrat] tracking-wide">Рассылки
                                         в мессенджеры с автоматическимим сценариями для прогрева аудитории</p>
                                 </div>
                             </div>
-                            <div className='shadow-[0_0_60px_-20px_rgba(0,0,0,0.2)] rounded-3xl flex items-start p-9'>
-                                <img className="w-16 mr-5" src={icon7} alt=""/>
+                            <div className='shadow-[0_0_40px_-20px_rgba(0,0,0,0.3)] rounded-3xl flex items-start p-9'>
+                                <img className="w-16 mt-2 mr-5" src={icon7} alt=""/>
                                 <div>
-                                    <h4 className="text-2xl mb-2 font-[Geist] font-black tracking-wide">Прием оплат</h4>
+                                    <h4 className="text-[29px] mb-2 font-[Geist] font-black tracking-wide">Прием оплат</h4>
                                     <p className="text-[#7C7E9D] text-lg font-bold font-[Montserrat] tracking-wide">Получайте
                                         платежи прямо в чат-боте через популярные платежные системы</p>
                                 </div>
