@@ -13,6 +13,7 @@ export default {
 		screens: {
 			'xl': '1440px',
 			'md': '1024px',
+			'sm': '744px',
 		},
 		extend: {
 			backgroundImage: {

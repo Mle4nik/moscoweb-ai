@@ -1,11 +1,11 @@
 import React from 'react';
-import icon1 from '../assets/integration/image 19.svg'
-import icon2 from '../assets/integration/image 20.svg'
-import icon3 from '../assets/integration/image 21.svg'
-import icon4 from '../assets/integration/image 22.svg'
-import icon5 from '../assets/integration/image 25.svg'
-import icon6 from '../assets/integration/image 26.svg'
-import icon7 from '../assets/integration/image 27.svg'
+import icon1 from '../assets/integration/image 19.svg';
+import icon2 from '../assets/integration/image 20.svg';
+import icon3 from '../assets/integration/image 21.svg';
+import icon4 from '../assets/integration/image 22.svg';
+import icon5 from '../assets/integration/image 25.svg';
+import icon6 from '../assets/integration/image 26.svg';
+import icon7 from '../assets/integration/image 27.svg';
 // import oval from '../assets/oval.svg'
 
 export default function Integration() {
