@@ -16,15 +16,15 @@ const Header = () => {
                             <div
                                 className="flex justify-between items-center text-md font-bold py-8 mx-16 font-[Geist] text-xl">
                                 <ul className="flex justify-center items-center list-none">
-                                    <li className="cursor-pointer mr-4 hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300">Функции</li>
+                                    <li className="cursor-pointer mr-4 hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300"><a href="#services">Функции</a></li>
                                     <li className="cursor-pointer hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300">Документация</li>
                                 </ul>
                                 <div className="w-32 cursor-pointer">
                                     <img src={LOGO} alt=""/>
                                 </div>
                                 <ul className="flex justify-center items-center list-none">
-                                    <li className="cursor-pointer ml-5 mr-4 hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300">Цены</li>
-                                    <li className="cursor-pointer hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300">Заказать</li>
+                                    <li className="cursor-pointer ml-5 mr-4 hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300"><a href="#prices">Цены</a></li>
+                                    <li className="cursor-pointer hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300"><a href="#">Заказать</a></li>
                                 </ul>
                             </div>
                         </div>

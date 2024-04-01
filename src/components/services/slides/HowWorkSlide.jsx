@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from "../ui/Title.jsx";
 import brain from '/src/assets/services/brain.png';
+import illustration from "/src/assets/services/botIllustration2.png";
 
 const HowWorkSlide = () => {
 	return (
@@ -18,7 +19,7 @@ const HowWorkSlide = () => {
 				</div>
 			</div>
 			<div className='w-1/2 bg-[#F3F5FF] absolute right-0 h-full'>
-				<img src="/src/assets/services/botIllustration2.png" alt="botIllustration" className='relative h-[40%] top-[270px] -left-8'/>
+				<img src={illustration} alt="botIllustration" className='relative h-[40%] top-[270px] -left-8'/>
 			</div>
 		</div>
 	);
