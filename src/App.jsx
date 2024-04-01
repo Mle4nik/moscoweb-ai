@@ -8,15 +8,15 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
     return (
-        <>
-            <Header/>
+        <main>
+            {/* <Header/>
             <Categories />
-            <Services/>
-            <Integration />
+            <Services/>*/}
+            <Integration /> 
             <Subscription />
             <Faqs />
             <Footer />
-        </>
+        </main>
     )
 }
 

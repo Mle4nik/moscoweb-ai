@@ -37,7 +37,7 @@ const Services = () => {
     }
 
     return (
-        <div className="w-screen">
+        <div id='services' className="w-screen">
             <div
                 className='font-[Geist] max-w-[1365px] w-full m-auto flex flex-col items-center justify-center mt-[108px]'>
                 <h2 className='font-bold text-center text-[45px] maw-w-[399px]'>Все сервисы <br/> в одной подписке</h2>
