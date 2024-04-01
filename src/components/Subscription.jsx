@@ -7,27 +7,32 @@ import {Link} from "react-router-dom";
 
 export default function Subscription() {
     return (
-        <div className="w-screen">
+        <div id='prices' className="w-screen">
+            {/* bot */}
             <div className="z-10 relative  ">
-                <img src={BOT3} alt="bot2" className='absolute xl:right-36 md:-right-4'/>
+                <img src={BOT3} alt="bot2"
+                     className='absolute tablet:right-24 desktop:right-36 tablet-lg:right-18 mobile:w-1/3 desktop:w-1/4 '/>
             </div>
-            <div className="flex justify-center items-center text-5xl text-center font-bold w-full h-96 bg-light-pink ">
-                <div className="w-full font-[Geist] ">
-                    Бот дает исчерпывающий <br/> ответ на запросы покупателей <br/> и
+            {/* Header */}
+            <div className="flex items-center text-5xl text-center font-bold h-96 bg-light-pink ">
+                <div
+                    className=" mx-auto my-auto desktop:w-full text-lg mobile:text-xl tablet:text-2xl tablet-lg:-3xl desktop:text-4xl font-[Geist] ">
+                    Moscobot дает исчерпывающий <br/> ответ на запросы покупателей <br/> и
                     ведет их к покупке
                 </div>
             </div>
-            <div className="w-full flex justify-center ">
+            <div className="flex w-full justify-center tablet:grid-cols-2">
                 {/* left */}
                 <div
-                    className=" flex jusstify-center items-center size-1/2 bg-light-pink h-[580px] max-w-[1440px] mx-auto">
+                    className=" flex justify-center items-center size-1/2 bg-light-pink h-[580px] max-w-[1440px] mx-auto">
                     <div className='mx-auto'>
                         <div className="p-5 text-4xl text-slate-500 font-bold m-2 font-[Geist]">Набор Lite</div>
                         <div className='z-10 relative  '>
                             <img src={price1} alt="price"
-                                 className='absolute xl:left-64 xl:-top-16 md:left-36 md:-top-16'/>
+                                 className='absolute left-64 -top-20 w-1/2 desktop:w-3/5 desktop:left-64 desktop:-top-16  tablet:-top-10 tablet:left-44 tablet:w-3/5 mobile:w-1/2 mobile:-top-10 mobile:left-44'/>
                         </div>
-                        <div className="xl:w-[440px] p-10 shadow-slate-200 shadow-lg xl:h-[300px] rounded-2xl bg-white">
+                        <div
+                            className="desktop:w-[440px] p-10 shadow-slate-200 shadow-lg desktop:h-[300px] tablet:w-screen tablet:h-[300px] rounded-2xl bg-white">
 
                             <ul role="list" className="marker:text-slate-500 list-disc pl-5 space-y-3 ">
                                 <li>Бот продавец</li>
@@ -47,10 +52,10 @@ export default function Subscription() {
                 <div className=" flex jusstify-center items-center size-1/2 bg-light-purple h-[580px]">
                     <div className='mx-auto'>
                         <div className="p-5 text-4xl text-slate-300 font-bold m-2 font-[Geist]">Pro Решения</div>
-                        <div className="xl:w-[440px] p-10 shadow-xs xl:h-[300px] rounded-2xl bg-white">
+                        <div className="desktop:w-[440px] p-10 shadow-xs desktop:h-[300px] rounded-2xl bg-white">
                             <div className='z-10 relative  '>
                                 <img src={price2} alt="price"
-                                     className='absolute xl:left-64 xl:-top-24 md:left-36 md:-top-24'/>
+                                     className='absolute desktop:left-52 desktop:-top-28  tablet-lg:w-4/5 tablet:-top-20 tablet:left-36 tablet:w-4/5 mobile:w-2/3 mobile:-top-18 mobile:left-36'/>
                             </div>
                             <ul role="list" className="marker:text-slate-500 list-disc pl-5 space-y ">
                                 <li>Анализ</li>

@@ -18,11 +18,11 @@ export default function Footer() {
         <>
             <div className="bg-light-purple w-screen">
                 <div
-                    className="h-auto px-12 w-full font-normal overflow-hidden tracking-tighter max-w-[1440px] mx-auto">
-                    <div className="font-normal py-16 text-8xl tracking-tighter text-white font-[Geist] ">
+                    className="h-auto tablet-lg:px-12 desktop:px-12 w-full font-normal overflow-hidden tracking-tighter max-w-[1440px] mx-auto">
+                    <div className="font-normal mobile:py-10 tablet:py-14 desktop:py-16 text-xl mobile:text-4xl  tablet:text-6xl tablet-lg:text-7xl desktop:text-8xl tracking-tighter text-white font-[Geist] ">
                         <a href="mailto:sale@moscoweb.agency" target="_blank">sale@moscoweb.agency</a>
                     </div>
-                    <div className="font-[Geist] tracking-tighter mb-8 font-medium text-[#B4C0FF] text-6xl">
+                    <div className="font-[Geist] tracking-tighter mb-8 font-medium text-[#B4C0FF] text-xl mobile:text-2xl tablet:text-4xl tablet-lg:text-5xl desktop:text-6xl">
                         Напишите нам
                     </div>
 
@@ -35,8 +35,8 @@ export default function Footer() {
                                 <img src={footer_logo} className="right-0" alt="logo"/>
                             </div>
                             <div
-                                className='flex flex-col tracking-tighter justify-center items-end text-white text-6xl gap-4 font-[Geist] font-medium mb-16'>
-                                <Link link="https://www.youtube.com/@agatsarsky">Youtube</Link>
+                                className='flex flex-col tracking-tighter justify-center items-end text-white text-xl mobile:text-2xl tablet:text-4xl tablet-lg:text-5xl desktop:text-6xl gap-4 font-[Geist] font-medium mb-16'>
+                                <Link className="border-b-4 border-white" link="https://www.youtube.com/@agatsarsky">Youtube</Link>
                                 <Link link="https://t.me/moscoweb">t.me/moscoweb</Link>
                                 <Link link="https://www.instagram.com/mweb.agency/">inst.com/mweb.agency</Link>
                             </div>

@@ -11,8 +11,11 @@ export default {
 
 		},
 		screens: {
-			'xl': '1440px',
-			'md': '1024px',
+			'desktop-lg': '1920px',
+			'desktop': '1440px',
+			'tablet-lg': '1024px',
+			'tablet': '768px',
+			'mobile': '320px'
 		},
 		extend: {
 			backgroundImage: {
