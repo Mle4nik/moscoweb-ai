@@ -26,7 +26,7 @@ const Header = () => {
                                 </div>
                                 <ul className="flex justify-center items-center list-none">
                                     <li className="cursor-pointer ml-5 mr-4 hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300"><a href="#prices">Цены</a></li>
-                                    <li className="cursor-pointer hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300"><a href="#">Заказать</a></li>
+                                    <Link to="/form"><li className="cursor-pointer hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300"><a href="#">Заказать</a></li></Link>
                                 </ul>
                             </div>
                         </div>
