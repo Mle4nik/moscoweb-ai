@@ -6,9 +6,5 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-<<<<<<< HEAD
 /node_modules
 node_modules
-=======
-../node_modules
->>>>>>> services

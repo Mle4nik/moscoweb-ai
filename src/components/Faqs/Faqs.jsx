@@ -5,7 +5,6 @@ import Question from "./ui/Question.jsx";
 
 export default function Faqs() {
 
-
     const [btnActive, setBtnActive] = useState(false)
     const showQuestion = (question) => {
         setBtnActive(question)
@@ -30,15 +29,15 @@ export default function Faqs() {
         ]
     return (
         <>
-            <div>
+            <div className="w-screen">
                 <div className='mx-auto tracking-wide py-24 font-[Geist] max-w-[1440px]'>
                     <div className="font-bold text-4xl text-center mb-12">
                         Частые вопросы
                     </div>
-                    <div className="text-2xl grid grid-cols-2 gap-6">
+                    <div className="text-2xl grid desktop:tablet-lg:grid-cols-2 grid-cols-1 grid-rows-2 gap-6 mx-12 col-start-1">
                         {questionItems.map(question => {
                             return (
-                                <button onClick={() => showQuestion(question)} className='w-full h-full'>
+                                <button onClick={() => showQuestion(question)} className='w-full h-full items-start'>
                                     <Question key={question.title} title={question.title} desciption={question.description} btnActive={btnActive}/>
                                 </button>
                             )
