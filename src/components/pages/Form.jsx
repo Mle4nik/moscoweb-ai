@@ -21,7 +21,7 @@ const Form = () => {
                 </div>
             </Link>
             <div className="w-full h-full flex justify-center items-center">
-                <div className="w-2/3 h-4/5 bg-[#643CDA] rounded-[70px] pl-20 w-4/6 overflow-hidden relative">
+                <div className="w-2/3 h-4/5 bg-[#643CDA] rounded-[70px] pl-20 w-4/6 overflow-hidden relative desktop:w-2/3">
                     <img className="absolute right-[-44px] bottom-[-5.1rem] rotate-[67deg]" src="src/assets/form/figure.svg" alt=""/>
                     <h1 className="tracking-[-0.20rem] font-medium mt-16 text-white text-6xl">Заполните форму и мы
                         свяжемся <br/> с вами в ближайшее время!
