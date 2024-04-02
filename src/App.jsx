@@ -11,7 +11,7 @@ function App() {
         <main>
             <Header/>
             <Categories />
-            <Services/>*/}
+            <Services/>
             <Integration /> 
             <Subscription />
             <Faqs />
