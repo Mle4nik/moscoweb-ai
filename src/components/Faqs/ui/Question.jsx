@@ -2,11 +2,13 @@ import React, {useEffect, useState} from 'react';
 import {BsPlusLg} from "react-icons/bs";
 import {PiMinusLight} from "react-icons/pi";
 
+// hover:border-none hover:shadow-lg hover:shadow-[#835EF0]
+
 const Question = ({title, btnActive}) => {
 
     return (
         <div
-            className={`flex items-center h-auto p-8 rounded-xl border hover:border-none hover:shadow-lg hover:shadow-[#835EF0] all duration-300 cursor-pointer ${btnActive.title === title ? 'bg-[#643CDA] text-white' : 'text-[#000C71]'}`}>
+            className={`flex items-center h-auto p-8 rounded-xl border hover:border-b-[6px] hover:border-r-[6px] hover:border-[#835EF0] all duration-300 cursor-pointer ${btnActive.title === title ? 'bg-[#643CDA] text-white hover:border-none border-none' : 'text-[#000C71]'}`}>
             <div className="flex flex-col">
                 <div className="flex items-center">
                     <div

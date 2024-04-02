@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import LOGO from '../assets/header/logo.svg';
 import buttonArrow from '../assets/header/button-arrow.svg';
 import SOCIALS from '../assets/header/socials.svg';
 import {IoMdArrowForward} from "react-icons/io";
 import banner from '../assets/header/back.svg';
+import {Link, Navigate, NavLink} from "react-router-dom";
 
 const Header = () => {
+
     return (
         <>
         {/* header */}
@@ -24,13 +26,13 @@ const Header = () => {
                                 </div>
                                 <ul className="flex justify-center items-center list-none">
                                     <li className="cursor-pointer ml-5 mr-4 hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300"><a href="#prices">Цены</a></li>
-                                    <li className="cursor-pointer hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300"><a href="#">Заказать</a></li>
+                                    <Link to="/form"><li className="cursor-pointer hover:bg-[#643CDA] hover:text-white active:bg-[#451CC0] py-1 px-4 rounded-full all duration-300"><a href="#">Заказать</a></li></Link>
                                 </ul>
                             </div>
                         </div>
                         {/* banner */}
                         <div className="w-screen relative">
-                            <img src={banner} className="h-[785px] absolute z-0 max-w-[1440px]  bg-no-repeat bg-contain bg-top" />
+                            <img src={banner} className="h-[785px] absolute z-0 max-w-[1440px] bg-no-repeat bg-contain bg-top left-5" />
                                 <div className="flex flex-col ml-36 pt-20 z-10">
                                     <div className="text-white z-50">
                                         <h1 className="text-[115px] font-semibold font-['Poppins'] z-50">Moscobot</h1>
@@ -38,8 +40,8 @@ const Header = () => {
                                             которые: <br/> увеличивают ваши продажии <br/> консультируют клиентов</p>
                                     </div>
                                     <div className="mt-40 ml-3 z-50">
-                                        <a href="#">
-                                            <div
+                                        <Link to='/form'><a href="#">
+                                            <div onClick={() => setIsClicked(true)}
                                                 className="font-[Geist] flex justify-center z-50 items-center pl-2 bg-white w-72 text-md font-semibold rounded-full py-4 hover:w-80 hover:bg-[#835BF7] hover:text-white all duration-300 active:bg-[#451CC0]">
                                                 Заказать бота под ключ
                                                 {/*<img className="ml-5 font-bold w-6 hover:text-white" src={buttonArrow}*/}
@@ -47,7 +49,7 @@ const Header = () => {
                                                 {/*     alt=""/>*/}
                                                 <IoMdArrowForward className="ml-5 font-bold text-4xl hover:text-white"/>
                                             </div>
-                                        </a>
+                                        </a></Link>
                                     </div>
                                 </div>
                             

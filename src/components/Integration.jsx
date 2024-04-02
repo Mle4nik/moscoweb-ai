@@ -26,22 +26,22 @@ export default function Integration() {
                     </div>
                 </div>
                 {/* 4 блока */}
-                <div className='w-full grid grid-cols-2 desktop-lg:desktop:grid-cols-1 justify-center my-6 space-x-16 z-50'>
-                    <div className='size-1/5'>
+                    <div className='w-full grid grid-cols-4 desktop-lg:desktop:grid-cols-1 justify-center my-6 mx-10 z-50'>
+                    <div className='w-5/6'>
                         <img className="w-12" src={icon1}/>
                         <div className='text-2xl py-5 font-bold'>Google-таблицы</div>
                         <div className=' text-slate-500 text-xl font-semibold font-[Montserrat]'>Добавляйте строки,
                             получайте значения из ячеек и многое другое
                         </div>
                     </div>
-                    <div className='size-1/5'>
+                    <div className='w-5/6'>
                         <img className="w-16" src={icon2}/>
                         <div className='text-2xl py-5 font-bold'>Платежи</div>
                         <div className='text-slate-500 text-xl font-semibold font-[Montserrat]'>Получайте платежи через
                             популярные сервисы
                         </div>
                     </div>
-                    <div className='size-1/5'>
+                    <div className='w-5/6'>
                         <img className="w-16" src={icon3}/>
                         <div className='text-2xl py-5 font-bold'>CRM</div>
                         <div className='text-slate-500 text-xl font-semibold font-[Montserrat]'>Отправляйте заявки из
@@ -49,7 +49,7 @@ export default function Integration() {
                         </div>
                     </div>
 
-                    <div className='size-1/5'>
+                    <div className='w-5/6'>
                         <img className="w-16" src={icon4}/>
                         <div className='text-2xl py-5 font-bold'>GetCourse</div>
                         <div className='text-slate-500 text-xl font-semibold font-[Montserrat]'>Добавляйте пользователей
