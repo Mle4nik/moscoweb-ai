@@ -4,10 +4,12 @@ import bot3 from '../assets/footer/bot3.svg';
 
 export default function Footer() {
 
-    const Link = ({link, children, className}) => {
+    const Link = ({link, children}) => {
         return (
             <div className="link">
-                <a className={className} href={link} target="_blank">{children}</a>
+                <a className="group transition duration-300" href={link} target="_blank">{children}
+                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-1 bg-white"></span>
+                </a>
             </div>
         )
     }
