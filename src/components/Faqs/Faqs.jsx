@@ -31,7 +31,7 @@ export default function Faqs() {
         <>
             <div className="w-screen">
                 <div className='mx-auto tracking-wide py-24 font-[Geist] max-w-[1440px]'>
-                    <div className="font-bold text-4xl text-center mb-12">
+                    <div className="font-bold text-lg mobile:text-2xl tablet-lg:text-3xl desktop:text-4xl text-center mb-12">
                         Частые вопросы
                     </div>
                     <div className="text-2xl grid desktop:tablet-lg:grid-cols-2 grid-cols-1 grid-rows-2 gap-6 mobile:mx-6 desktop:mx-12 col-start-1">
