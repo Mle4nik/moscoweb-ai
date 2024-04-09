@@ -21,19 +21,18 @@ export default function Subscription() {
                     ведет их к покупке
                 </div>
             </div>
-            <div className="flex w-full justify-center tablet:grid-cols-2">
+            <div className="flex tablet:flex-row mobile:flex-col w-full justify-center tablet:grid-cols-2">
                 {/* left */}
                 <div
-                    className=" flex justify-center items-center size-1/2 bg-light-pink h-[580px] max-w-[1440px] mx-auto">
+                    className=" flex justify-center items-center mobile:w-full tablet:w-full desktop:size-1/2 tablet-lg:size-1/2 bg-light-pink h-[580px] ">
                     <div className='mx-auto'>
                         <div className="p-5 text-4xl text-slate-500 font-bold m-2 font-[Geist]">Набор Lite</div>
-                        <div className='z-10 relative  '>
-                            <img src={price1} alt="price"
-                                 className='absolute left-64 -top-20 w-1/2 desktop:w-3/5 desktop:left-64 desktop:-top-16  tablet:-top-10 tablet:left-44 tablet:w-3/5 mobile:w-1/2 mobile:-top-10 mobile:left-44'/>
-                        </div>
-                        <div
-                            className="desktop:w-[440px] p-10 shadow-slate-200 shadow-lg desktop:h-[300px] tablet:w-screen tablet:h-[300px] rounded-2xl bg-white">
-
+                        <div className="desktop:w-[440px] p-10 shadow-slate-200 shadow-lg desktop:h-[300px]  rounded-2xl bg-white">
+                            
+                            <div className='z-10 relative  '>
+                                <img src={price1} alt="price"
+                                    className='absolute mobile:w-1/2  mobile:-top-10 mobile:left-44 tablet:w-3/5 tablet:-top-10 tablet:left-44  tablet-lg:w-4/5 desktop:w-3/5  desktop:left-64 desktop:-top-16'/>
+                            </div>
                             <ul role="list" className="marker:text-slate-500 list-disc pl-5 space-y-3 ">
                                 <li>Бот продавец</li>
                                 <li>Бот консультант <br/> Боты ведут пользователей <br/> к покупке</li>
@@ -49,7 +48,7 @@ export default function Subscription() {
                 </div>
 
                 {/* right */}
-                <div className=" flex jusstify-center items-center size-1/2 bg-light-purple h-[580px]">
+                <div className=" flex jusstify-center mobile:w-full tablet:w-full items-center size-1/2 bg-light-purple h-[580px]">
                     <div className='mx-auto'>
                         <div className="p-5 text-4xl text-slate-300 font-bold m-2 font-[Geist]">Pro Решения</div>
                         <div className="desktop:w-[440px] p-10 shadow-xs desktop:h-[300px] rounded-2xl bg-white">
