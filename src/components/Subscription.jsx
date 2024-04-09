@@ -28,11 +28,12 @@ export default function Subscription() {
                     <div className='mx-auto'>
                         <div className="p-5 text-4xl text-slate-500 font-bold m-2 font-[Geist]">Набор Lite</div>
                         <div className="desktop:w-[440px] p-10 shadow-slate-200 shadow-lg desktop:h-[300px]  rounded-2xl bg-white">
-                            
+                            {/* Image */}
                             <div className='z-10 relative  '>
                                 <img src={price1} alt="price"
-                                    className='absolute mobile:w-1/2  mobile:-top-10 mobile:left-44 tablet:w-3/5 tablet:-top-10 tablet:left-44  tablet-lg:w-4/5 desktop:w-3/5  desktop:left-64 desktop:-top-16'/>
+                                    className='absolute mobile:w-2/3  mobile:-top-18 mobile:left-40 tablet:w-4/5 tablet:-top-20 tablet:left-36  tablet-lg:w-4/5 desktop:w-3/5  desktop:left-64 desktop:-top-16'/>
                             </div>
+
                             <ul role="list" className="marker:text-slate-500 list-disc pl-5 space-y-3 ">
                                 <li>Бот продавец</li>
                                 <li>Бот консультант <br/> Боты ведут пользователей <br/> к покупке</li>
@@ -52,6 +53,7 @@ export default function Subscription() {
                     <div className='mx-auto'>
                         <div className="p-5 text-4xl text-slate-300 font-bold m-2 font-[Geist]">Pro Решения</div>
                         <div className="desktop:w-[440px] p-10 shadow-xs desktop:h-[300px] rounded-2xl bg-white">
+                            {/* Image */}
                             <div className='z-10 relative  '>
                                 <img src={price2} alt="price"
                                      className='absolute desktop:left-52 desktop:-top-28  tablet-lg:w-4/5 tablet:-top-20 tablet:left-36 tablet:w-4/5 mobile:w-2/3 mobile:-top-18 mobile:left-36'/>

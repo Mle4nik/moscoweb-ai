@@ -20,39 +20,39 @@ export default function Integration() {
                 </div>
                 <div className='pt-5 pb-20'>
                     <div
-                        className=" font-[Montserrat] flex justify-center items-center text-center text-sm mobile:text-lg tablet:text-xl desktop:text-2xl text-slate-500 font-medium">
+                        className=" px-8 font-[Montserrat] flex justify-center items-center text-center text-[12px] mobile:text-lg tablet:text-xl desktop:text-2xl text-slate-500 font-medium">
                         Мы сделали удобные блоки в конструкторе, чтобы вам не <br/> приходилось
                         разбираться со сложными интеграциями
                     </div>
                 </div>
                 {/* 4 блока */}
-                    <div className='w-full grid grid-cols-4 desktop-lg:desktop:grid-cols-1 justify-center my-6 mx-10 z-50'>
+                    <div className='w-full grid desktop:grid-cols-4 tablet:grid-cols-4 grid-cols-2 tablet:justify-center my-6 mx-7 gap-5 z-50'>
                     <div className='w-5/6'>
                         <img className="w-12" src={icon1}/>
-                        <div className='text-2xl py-5 font-bold'>Google-таблицы</div>
-                        <div className=' text-slate-500 text-xl font-semibold font-[Montserrat]'>Добавляйте строки,
+                        <div className='text-lg tablet:text-2xl py-5 font-bold'>Google таблицы</div>
+                        <div className=' text-slate-500 text-xs tablet:text-xl font-semibold font-[Montserrat]'>Добавляйте строки,
                             получайте значения из ячеек и многое другое
                         </div>
                     </div>
                     <div className='w-5/6'>
-                        <img className="w-16" src={icon2}/>
-                        <div className='text-2xl py-5 font-bold'>Платежи</div>
-                        <div className='text-slate-500 text-xl font-semibold font-[Montserrat]'>Получайте платежи через
+                        <img className="w-12 tablet:w-16" src={icon2}/>
+                        <div className='text-lg py-4 tablet:py-5 font-bold'>Платежи</div>
+                        <div className='text-slate-500 text-xs tablet:text-xl font-semibold font-[Montserrat]'>Получайте платежи через
                             популярные сервисы
                         </div>
                     </div>
                     <div className='w-5/6'>
-                        <img className="w-16" src={icon3}/>
-                        <div className='text-2xl py-5 font-bold'>CRM</div>
-                        <div className='text-slate-500 text-xl font-semibold font-[Montserrat]'>Отправляйте заявки из
+                        <img className="w-12 tablet:w-16" src={icon3}/>
+                        <div className='text-lg py-5 font-bold'>CRM</div>
+                        <div className='text-slate-500 text-xs tablet:text-xl font-semibold font-[Montserrat]'>Отправляйте заявки из
                             бота в CRM
                         </div>
                     </div>
 
                     <div className='w-5/6'>
-                        <img className="w-16" src={icon4}/>
-                        <div className='text-2xl py-5 font-bold'>GetCourse</div>
-                        <div className='text-slate-500 text-xl font-semibold font-[Montserrat]'>Добавляйте пользователей
+                        <img className="w-12 tablet:w-16" src={icon4}/>
+                        <div className='text-lg py-5 font-bold'>GetCourse</div>
+                        <div className='text-slate-500 text-xs tablet:text-xl font-semibold font-[Montserrat]'>Добавляйте пользователей
                             в GetCourse, отправляйте ссылки на оплату
                         </div>
                     </div>                    
@@ -61,22 +61,22 @@ export default function Integration() {
 
                 {/* Oval  */}
                 <div className='relative'>
-                    <img src={oval2} className='-z-10 absolute desktop:w-[815px] desktop:h-[400px] tablet-lg:-top-[500px] desktop:-top-[350px] desktop:left-[693px] ' alt="oval" />
+                    <img src={oval2} className='-z-10 absolute -top-[350px] desktop:w-[815px] desktop:h-[400px] tablet:-top-[350px] tablet:w-4/5 tablet:left-[100px] tablet-lg:w-3/5 tablet-lg:-top-[350px] tablet-lg:left-[200px] desktop:-top-[350px] desktop:left-[693px] ' alt="oval" />
                 </div>
-
+        
                 <div>
                     <div className=' mt-32 mb-12 font-bold text-xl mobile:text-2xl tablet:text-3xl tablet-lg:text-4xl desktop:text-5xl text-center font-[Geist] '>А еще у нас есть</div>
                 </div>
 
                 <div>
-                    <div className='flex flex-col mx-12 mb-32 gap-3'>
+                    <div className='flex flex-col mx-5 mobile:mx-6 tablet:mx-10 desktop:mx-12 mb-32 gap-3'>
                         <div
                             className='w-full shadow-[0_0_60px_-20px_rgba(0,0,0,0.2)] rounded-3xl flex items-start p-9 '>
                             <img className=" w-8 mobile:w-10 tablet:w-12 tablet-lg:w-14 desktop:w-16 mr-5 " src={icon5} alt="gpt"/>
                             <div>
                                 <h4 className="text-sm mobile:text-lg tablet:text-xl desktop:text-2xl mb-2 font-[Geist] font-black tracking-wide">Прямая интеграция с
                                     GPT</h4>
-                                <p className="text-[#7C7E9D] text-xs mobile:text-sm tablet:text-base desktop:text-lg font-bold font-[Montserrat] tracking-wide">Вам не
+                                <p className="text-[#7C7E9D] text-xs mobile:text-sm tablet:text-base desktop:text-lg font-medium tablet:font-bold  font-[Montserrat] tracking-wide">Вам не
                                     нужен аккаунт OpenAi. Просто используйте блок “Ответ через ChatGPT”, указываете
                                     промт для GPT и все будет работать!</p>
                             </div>
@@ -87,7 +87,7 @@ export default function Integration() {
                                 <div>
                                     <h4 className=" text-sm mobile:text-lg tablet:text-xl desktop:text-2xl mb-2 font-[Geist] font-black tracking-wide">Сегментированные
                                         авто-рассылки</h4>
-                                    <p className="text-[#7C7E9D] text-xs mobile:text-sm tablet:text-base desktop:text-lg font-bold font-[Montserrat] tracking-wide">Рассылки
+                                    <p className="text-[#7C7E9D] text-xs mobile:text-sm tablet:text-base desktop:text-lg font-medium tablet:font-bold  font-[Montserrat] tracking-wide">Рассылки
                                         в мессенджеры с автоматическимим сценариями для прогрева аудитории</p>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export default function Integration() {
                                 <img className=" w-8 mobile:w-10 tablet:w-12 tablet-lg:w-14 desktop:w-16 mr-5" src={icon7} alt="card"/>
                                 <div>
                                     <h4 className="text-sm mobile:text-lg tablet:text-xl desktop:text-2xl mb-2 font-[Geist] font-black tracking-wide">Прием оплат</h4>
-                                    <p className="text-[#7C7E9D] text-xs mobile:text-sm tablet:text-base desktop:text-lg font-bold font-[Montserrat] tracking-wide">Получайте
+                                    <p className="text-[#7C7E9D] text-xs mobile:text-sm tablet:text-base desktop:text-lg font-medium tablet:font-bold  font-[Montserrat] tracking-wide">Получайте
                                         платежи прямо в чат-боте через популярные платежные системы</p>
                                 </div>
                             </div>

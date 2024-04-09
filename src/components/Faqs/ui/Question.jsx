@@ -15,17 +15,17 @@ const Question = ({title, btnActive}) => {
                         className='w-auto mr-8 border-2 rounded-xl bg-white text-white all duration-300'>
                         {btnActive.title === title ?
                             <PiMinusLight
-                                className={`m-3 text-4xl ${btnActive.title === title ? 'text-[#643CDA]' : 'text-[#000C71]'} all duration-300`}/>
+                                className={`m-3 text-2xl mobile:text-2xl tablet:text-4xl ${btnActive.title === title ? 'text-[#643CDA]' : 'text-[#000C71]'} all duration-300`}/>
                             :
                             <BsPlusLg
-                                className={`m-3 text-4xl ${btnActive.title === title ? 'text-[#643CDA]' : 'text-[#000C71]'} all duration-300`}/>
+                                className={`m-3 text-2xl mobile:text-2xl tablet:text-4xl ${btnActive.title === title ? 'text-[#643CDA]' : 'text-[#000C71]'} all duration-300`}/>
                         }
                     </div>
                     <h4 className={`text-start ${btnActive.title === title ? 'font-bold' : ''}`}>{title}</h4>
                 </div>
                 <div>
                     {btnActive.title === title ?
-                        <p className="ml-24 w-4/5 text-lg text-start">{btnActive.description}</p> : ''}
+                        <p className="ml-24 w-4/5 text-sm tablet:text-lg text-start">{btnActive.description}</p> : ''}
                 </div>
             </div>
         </div>
