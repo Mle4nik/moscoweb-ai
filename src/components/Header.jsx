@@ -41,7 +41,7 @@ const Header = () => {
                                 <div onClick={() => setIsClicked(!isClicked)} className="mobile:block tablet-lg:hidden">
                                     {isClicked ?
                                         <div
-                                            className="active:text-light hover:bg-[#643CDA] tablet:px-3.5 mobile:px-2 tablet:py-[1.6rem] mobile:py-4.5 rounded-full">
+                                            className="active:text-light bg-[#643CDA] tablet:px-3.5 mobile:px-2 tablet:py-[1.6rem] mobile:py-4.5 rounded-full">
                                             <nav
                                                 className="tablet:w-8 mobile:w-7 relative top-0.5 rounded-3xl h-1 bg-black rotate-[45deg]"></nav>
                                             <nav
@@ -49,7 +49,7 @@ const Header = () => {
                                         </div>
                                         :
                                         <div
-                                            className="active:text-light hover:bg-[#643CDA] tablet:px-4 mobile:px-2.5 tablet:py-5 mobile:py-3 rounded-full">
+                                            className="active:text-light tablet:px-4 mobile:px-2.5 tablet:py-5 mobile:py-3 rounded-full">
                                             <nav className="tablet:w-7 mobile:w-6 rounded-full h-1 bg-black"></nav>
                                             <nav className="tablet:w-7 mobile:w-6 rounded-full h-1 bg-black my-1"></nav>
                                             <nav className="tablet:w-7 mobile:w-6 rounded-full h-1 bg-black"></nav>
@@ -127,8 +127,8 @@ const Header = () => {
 
                         <div className="flex flex-col justify-center items-center">
                             <div className="flex flex-col justify-center items-center pt-10 mt-48 pb-20 z-40">
-                                <h2 className="text-6xl font-bold text-[#0B0B33]">Мы собрали всё, что вам нужно</h2>
-                                <p className="text-2xl font-semibold mt-6 font-[Geist]">Собирайте ботов сразу</p>
+                                <h2 className="text-center text-xl mobile:text-2xl tablet:text-4xl tablet-lg:text-5xl desktop:text-6xl font-bold text-[#0B0B33]">Мы собрали всё, что вам нужно</h2>
+                                <p className="text-xs mobile:text-sm tablet:text-lg tablet-lg:text-xl desktop:text-2xl font-semibold mt-6 font-[Geist]">Собирайте ботов сразу</p>
                             </div>
                             <div className="ml-16 mr-5">
                                 <img src={SOCIALS} alt=""/>
