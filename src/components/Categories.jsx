@@ -87,7 +87,7 @@ export default function Categories() {
                             </ul>
                         </div>
                     </li>
-                    <li className='border-y border-b-2 tablet:py-10 mobile:py-3 mobile:py-3 border-slate-300 flex justify-between tablet:flex-row mobile:flex-col'>
+                    <li className='border-y border-b-2 tablet:py-10 mobile:py-3 border-slate-300 flex justify-between tablet:flex-row mobile:flex-col'>
                         <div>
                             <Title>
                                 Услуги

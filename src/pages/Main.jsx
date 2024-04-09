@@ -12,8 +12,8 @@ const Main = () => {
         <>
             <Header/>
             <Categories />
-            <Services/>
-            <Integration />
+            {/* <Services/> */}
+            {/* <Integration /> */}
             <Subscription />
             <Faqs />
             <Footer />
