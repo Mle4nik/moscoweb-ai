@@ -2,6 +2,7 @@ import React from 'react';
 import {Link, Navigate, useNavigate} from "react-router-dom";
 import {RxCross1} from "react-icons/rx";
 import {IoMdArrowForward} from "react-icons/io";
+import { InputMask } from 'primereact/inputmask';
 
 const Input = ({type, placeholder}) => {
     return (
@@ -28,8 +29,7 @@ const Form = () => {
                     </h1>
                     <form className="desktop:mt-20 gap-8 flex flex-col w-full tablet-lg:mt-16 tablet:mt-16 mobile:mt-10" action="src/pages">
                         <Input type="text" placeholder="Введите имя"/>
-                        <Input type="tel" placeholder="Введите номер телефона"/>
-                        <Input type="email" placeholder="Введите e-mail"/>
+                        <InputMask id="phone" mask="+7 (999) 999-99-99" placeholder="Введите номер телефона" className="tablet-lg:py-4 tablet-lg:w-5/12 bg-transparent border-b broder-violet-300 desktop-lg:placeholder:text-3xl placeholder:text-violet-300 placeholder:tracking-tighter placeholder:font-medium focus:outline-none desktop-lg:text-3xl text-white font-medium tracking-normal desktop:text-2xl desktop:placeholder:text-2xl tablet-lg:placeholder:text-2xl tablet:text-2xl tablet:w-8/12 tablet:py-2 mobile:w-full mobile:py-2"></InputMask>
                     </form>
                     <button
                         className="tablet:my-16 mobile:my-6 mobile:mt-16 font-[Geist] desktop-lg:text-2xl flex justify-center z-50 items-center pl-2 bg-white desktop-lg:w-80 text-md font-semibold rounded-full desktop-lg:py-5 desktop-lg:hover:w-96 hover:bg-[#835BF7] hover:text-white all duration-300 active:bg-[#451CC0] desktop:text-xl desktop:py-4 desktop:w-72 desktop:hover:w-80 tablet-lg:text-xl tablet-lg:py-4 tablet-lg:w-72 tablet-lg:hover:w-80 tablet:py-4 tablet:text-xl tablet:w-72 tablet:hover:w-80 mobile:p-3 mobile:text-md mobile:hover:w-60">
