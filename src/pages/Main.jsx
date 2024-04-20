@@ -12,7 +12,7 @@ const Main = () => {
         <>
             <Header/>
             <Categories />
-            {/* <Services/> */}
+            <Services/>
             <Integration />
             <Subscription />
             <Faqs />

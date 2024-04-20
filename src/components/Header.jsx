@@ -72,13 +72,14 @@ const Header = () => {
                                         className="bg-[#643CDA] flex flex-col justify-between h-[90%] rounded-3xl tablet:mx-10 mobile:mx-5 tablet:p-10 mobile:p-5 m-auto text-white overflow-hidden">
                                         <div className="tablet:text-4xl mobile:text-xl font-medium">
                                             <h2 className="py-1">
-                                                Функции
+                                                <a href="#services">Функции</a>
+                                                
                                             </h2>
                                             <h2 className="py-1">
                                                 Документация
                                             </h2>
                                             <h2 className="py-1">
-                                                Цены
+                                                <a href="#prices">Цены</a>
                                             </h2>
                                         </div>
                                         <div className="flex flex-col items-end">
