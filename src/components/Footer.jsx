@@ -18,8 +18,8 @@ export default function Footer() {
         <>
             <div className="bg-light-purple w-screen">
                 <div
-                    className="h-auto px-3 tablet-lg:px-12 desktop:px-12 w-full font-normal overflow-hidden tracking-tighter max-w-[1440px] mx-auto">
-                    <div className="font-normal mobile:pt-6 tablet:py-14 desktop:py-16 text-xl mobile:text-3xl  tablet:text-6xl tablet-lg:text-7xl desktop:text-8xl tracking-tighter text-white font-[Geist] ">
+                    className="h-auto mobile:px-6 tablet:px-8 tablet-lg:px-12 desktop:px-12 w-full font-normal overflow-hidden tracking-tighter max-w-[1440px] mx-auto">
+                    <div className="font-normal mobile:py-10 tablet:py-14 desktop:py-16 text-xl mobile:text-4xl  tablet:text-6xl tablet-lg:text-7xl desktop:text-8xl tracking-tighter text-white font-[Geist] ">
                         <a href="mailto:sale@moscoweb.agency" target="_blank">sale@moscoweb.agency</a>
                     </div>
                     <div className="font-[Geist] tracking-tighter mt-2 font-medium text-[#B4C0FF] text-xl mobile:text-2xl tablet:text-4xl tablet-lg:text-5xl desktop:text-6xl">
