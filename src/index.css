@@ -108,10 +108,28 @@ ul {
 	list-style: disc;
 }
 
-#rectangle {
-	height: 130px;
-	width: 100vw;
-	background: linear-gradient(to bottom right, #F3F5FF 50%, white 50%);
+@media (min-width: 768px) {
+	#rectangle {
+		height: 130px;
+		width: 100vw;
+		background: linear-gradient(to bottom right, #F3F5FF 50%, white 50%);
+	}
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+	#rectangle {
+		height: 80px;
+		width: 100vw;
+		background: linear-gradient(to bottom right, #F3F5FF 50%, white 50%);
+	}
+}
+
+@media (min-width: 320px) and (max-width: 574px) {
+	#rectangle {
+		height: 50px;
+		width: 100vw;
+		background: linear-gradient(to bottom right, #F3F5FF 50%, white 50%);
+	}
 }
 
 body {

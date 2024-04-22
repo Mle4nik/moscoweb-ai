@@ -12,11 +12,11 @@ const Main = () => {
         <>
             <Header/>
             <Categories />
-            <Services/>
-            <Integration />
-            <Subscription />
-            <Faqs />
-            <Footer />
+            {/*<Services/>*/}
+            {/*<Integration />*/}
+            {/*<Subscription />*/}
+            {/*<Faqs />*/}
+            {/*<Footer />*/}
         </>
     );
 };

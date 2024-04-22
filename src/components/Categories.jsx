@@ -15,7 +15,7 @@ export default function Categories() {
                 {/*<img src={BOT} alt="bot1"/>*/}
             </div>
             <div className='w-screen text-[#0B0B33] max-w-[1440px] mx-auto'>
-                <div className='w-full tablet-lg:text-5xl tablet:text-3xl font-bold text-center my-10 desktop:mb-20 tablet-lg:mb-16 mobile:text-2xl mobile:mt-0 mobile:mb-3'>
+                <div className='w-full tablet-lg:text-5xl tablet:text-3xl font-bold text-center my-10 desktop:mb-20 tablet-lg:mb-16 tablet:mb-10 mobile:text-2xl mobile:mt-0 mobile:mb-4 tablet:px-0 mobile:px-3'>
                     <h2 className="text-[#0B0B33]">Категории применения</h2>
                 </div>
                 <ul className='border-solid border-gray-500 tablet:mx-11 mobile:mx-7 font-[Geist]'>
