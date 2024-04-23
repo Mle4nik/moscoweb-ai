@@ -15,8 +15,8 @@ const Main = () => {
             {/*<Services/>*/}
             {/*<Integration />*/}
             {/*<Subscription />*/}
-            {/*<Faqs />*/}
-            {/*<Footer />*/}
+            <Faqs />
+            <Footer />
         </>
     );
 };
