@@ -24,6 +24,7 @@ const Header = () => {
     }
 
     const [isClicked, setIsClicked] = useState(false)
+    const [color, setColor] = useState('')
 
     return (
         <>
@@ -46,19 +47,19 @@ const Header = () => {
                                 <div onClick={() => setIsClicked(!isClicked)}
                                      className={`mobile:block tablet-lg:hidden ${isClicked ? 'relative z-[90]' : null}`}>
                                     {isClicked ?
-                                        <div
-                                            className="active:text-light bg-[#643CDA] tablet:px-3.5 mobile:px-2 tablet:py-[1.6rem] mobile:py-4.5 rounded-full">
+                                        <div onMouseEnter={() => setColor('bg-white')} onMouseLeave={() => setColor('')}
+                                            className="active:text-light transition-colors duration-300 bg-transparent hover:bg-[#643CDA] tablet:px-3.5 mobile:px-2 tablet:py-[1.6rem] mobile:py-4.5 rounded-full cursor-pointer">
                                             <nav
-                                                className="tablet:w-8 mobile:w-7 relative top-0.5 rounded-3xl h-1 bg-black rotate-[45deg]"></nav>
+                                                className={`tablet:w-8 mobile:w-7 relative top-0.5 rounded-3xl h-1 bg-black rotate-[45deg] ${color}`}></nav>
                                             <nav
-                                                className="tablet:w-8 mobile:w-7 relative bottom-0.5 rounded-3xl h-1 bg-black rotate-[-45deg]"></nav>
+                                                className={`tablet:w-8 mobile:w-7 relative bottom-0.5 rounded-3xl h-1 bg-black rotate-[-45deg] ${color}`}></nav>
                                         </div>
                                         :
-                                        <div
-                                            className="active:text-light tablet:px-4 mobile:px-2.5 tablet:py-5 mobile:py-3 rounded-full">
-                                            <nav className="tablet:w-7 mobile:w-6 rounded-full h-1 bg-black"></nav>
-                                            <nav className="tablet:w-7 mobile:w-6 rounded-full h-1 bg-black my-1"></nav>
-                                            <nav className="tablet:w-7 mobile:w-6 rounded-full h-1 bg-black"></nav>
+                                        <div onMouseEnter={() => setColor('bg-white')} onMouseLeave={() => setColor('')}
+                                            className="active:text-light tablet:px-4 mobile:px-2.5 tablet:py-5 mobile:py-3 rounded-full cursor-pointer hover:bg-[#643CDA] transition-colors duration-300">
+                                            <nav className={`tablet:w-7 mobile:w-6 rounded-full h-1 bg-black ${color}`}></nav>
+                                            <nav className={`tablet:w-7 mobile:w-6 rounded-full h-1 bg-black my-1 ${color}`}></nav>
+                                            <nav className={`tablet:w-7 mobile:w-6 rounded-full h-1 bg-black ${color}`}></nav>
                                         </div>
                                     }
                                 </div>
@@ -172,7 +173,7 @@ const Header = () => {
                                 <p className="text-xs mobile:text-lg tablet:text-lg tablet-lg:text-xl desktop:text-2xl font-semibold mt-6 font-[Geist]">Собирайте
                                     ботов сразу</p>
                             </div>
-                            <div className="ml-16 mr-5 mobile:hidden tablet:block">
+                            <div className="desktop:ml-16 tablet:ml-10 mr-5 mobile:hidden tablet:block">
                                 <img src={SOCIALS} alt=""/>
                             </div>
                             <div className="mobile:block tablet:hidden w-full px-5">

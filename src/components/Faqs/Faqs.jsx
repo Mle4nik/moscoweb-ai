@@ -26,14 +26,14 @@ export default function Faqs() {
     return (
         <>
             <div className="w-screen">
-                <div className='mx-auto tracking-wide tablet-lg:py-24 tablet:py-16 mobile:py-12 font-[Geist] max-w-[1440px]'>
+                <div className='mx-auto tracking-wide tablet-lg:pb-24 tablet:pb-16 mobile:pb-12 font-[Geist] max-w-[1440px]'>
                     <div
                         className="font-bold text-lg mobile:text-2xl tablet-lg:text-3xl desktop:text-4xl text-center mb-12">
                         Частые вопросы
                     </div>
                     {/*<div className="text-2xl grid tablet-lg:grid-cols-2 grid-cols-1 grid-rows-2 gap-6 mobile:mx-6 desktop:mx-12">*/}
                     <div
-                        className="text-2xl gap-6 desktop:mx-12 mobile:mx-6 tablet:grid tablet:grid-cols-2 tablet:col-start-auto mobile:flex mobile:flex-col">
+                        className="text-2xl gap-6 desktop:mx-12 tablet-lg:mx-10 mobile:mx-6 tablet:grid tablet:grid-cols-2 tablet:col-start-auto mobile:flex mobile:flex-col">
                         {questionItems.map(question => {
                             return (
                                 <button className='w-full h-auto flex'>

@@ -11,14 +11,20 @@ export default function Categories() {
 
     return (
         <div className="w-screen">
-            <div className="w-[50vw] absolute right-0 desktop:top-[95rem] tablet-lg:top-[90rem] tablet:top-[89rem] mobile:top-[105rem]">
-                {/*<img src={BOT} alt="bot1"/>*/}
-            </div>
+            {/*<div className="w-[50vw] absolute right-0 desktop:top-[95rem] tablet-lg:top-[90rem] tablet:top-[89rem] mobile:top-[105rem]">*/}
+            {/*    <img src={BOT} alt="bot1"/>*/}
+            {/*</div>*/}
             <div className='w-screen text-[#0B0B33] max-w-[1440px] mx-auto'>
-                <div className='w-full tablet-lg:text-5xl tablet:text-3xl font-bold text-center my-10 desktop:mb-20 tablet-lg:mb-16 tablet:mb-10 mobile:text-2xl mobile:mt-0 mobile:mb-4 tablet:px-0 mobile:px-3'>
-                    <h2 className="text-[#0B0B33]">Категории применения</h2>
+                <div className="relative">
+                    <img src={BOT} className="absolute desktop:right-[-23rem] mobile:right-[-25vw] desktop:top-[-22rem] tablet:top-[-24vw] mobile:top-[-10vw] desktop:w-auto mobile:w-[74vw]" alt="BOT"/>
                 </div>
-                <ul className='border-solid border-gray-500 tablet:mx-11 mobile:mx-7 font-[Geist]'>
+                <div
+                    className='w-full tablet-lg:text-5xl tablet:text-3xl font-bold text-center my-10 desktop:mb-20 tablet-lg:mb-16 tablet:mb-10 mobile:text-2xl mobile:mt-0 mobile:mb-4 tablet:px-0 mobile:px-3'>
+                    <div className="w-full flex justify-center items-center">
+                        <h2 className="text-[#0B0B33] mobile:w-72 tablet:w-auto text-center">Категории применения</h2>
+                    </div>
+                </div>
+                <ul className='border-solid border-gray-500 desktop:mx-12 tablet-lg:mx-10 mobile:mx-6 font-[Geist]'>
                     <li className='border-y border-t-2 border-slate-300 tablet:py-10 mobile:py-3 flex justify-between tablet:flex-row mobile:flex-col'>
                         <div>
                             <Title>Одежда/Обувь</Title>
