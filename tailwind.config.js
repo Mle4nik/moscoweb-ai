@@ -19,7 +19,8 @@ export default {
 		},
 		extend: {
 			backgroundImage: {
-				'headerBackBg': 'url("src/assets/header/back.svg")'
+				'headerBackBg': 'url("src/assets/header/back.svg")',
+				'burgerBack': 'url("src/assets/header/burger_back.svg")'
 			},
 			colors: {
 				'dark-purple': '#1D0072',

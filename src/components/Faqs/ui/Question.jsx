@@ -1,31 +1,35 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {BsPlusLg} from "react-icons/bs";
 import {PiMinusLight} from "react-icons/pi";
 
-// hover:border-none hover:shadow-lg hover:shadow-[#835EF0]
+const Question = ({title, description}) => {
 
-const Question = ({title, btnActive}) => {
+    const [isClicked, setIsClicked] = useState(false)
+
+    const [color, setColor] = useState("");
+    const styles = color
+
 
     return (
-        <div
-            className={`flex items-center h-auto p-8 rounded-xl border hover:border-b-[6px] hover:border-r-[6px] hover:border-[#835EF0] all duration-300 cursor-pointer ${btnActive.title === title ? 'bg-[#643CDA] text-white hover:border-none border-none' : 'text-[#000C71]'}`}>
+        <div onClick={() => setIsClicked(!isClicked)} onMouseEnter={() => setColor(`text-white bg-[#835EF0] border-[#835EF0] transition-colors duration-300`)} onMouseLeave={() => setColor('')}
+            className={`w-full flex items-start h-auto tablet-lg:p-8 tablet:p-6 mobile:p-5 tablet-lg:rounded-xl mobile:rounded-md border hover:border-b-[6px] hover:border-r-[6px] hover:border-[#835EF0] all duration-300 cursor-pointer ${isClicked ? 'bg-[#643CDA] text-white hover:border-none border-none' : 'text-[#000C71]'}`}>
             <div className="flex flex-col">
                 <div className="flex items-center">
                     <div
-                        className='w-auto mr-8 border-2 rounded-xl bg-white text-white all duration-300'>
-                        {btnActive.title === title ?
+                        className={`w-auto tablet-lg:mr-8 tablet:mr-5 mobile:mr-4 ${!isClicked ? 'tablet-lg:border-2 mobile:border-[1px]' : 'bg-white border-2 border-white'} tablet-lg:rounded-xl mobile:rounded-md text-white transition-colors duration-300 ${styles}`}>
+                        {isClicked ?
                             <PiMinusLight
-                                className={`m-3 text-2xl mobile:text-2xl tablet:text-4xl ${btnActive.title === title ? 'text-[#643CDA]' : 'text-[#000C71]'} all duration-300`}/>
+                                className={`m-1 tablet-lg:text-5xl mobile:text-4xl ${isClicked ? 'text-[#643CDA]' : 'text-[#000C71]'} transition-colors duration-300`}/>
                             :
                             <BsPlusLg
-                                className={`m-3 text-2xl mobile:text-2xl tablet:text-4xl ${btnActive.title === title ? 'text-[#643CDA]' : 'text-[#000C71]'} all duration-300`}/>
+                                className={`m-1 tablet-lg:text-5xl mobile:text-4xl ${isClicked ? 'text-[#643CDA]' : 'text-[#000C71]'} transition-colors duration-300 bg-transparent ${styles}`}/>
                         }
                     </div>
-                    <h4 className={`text-start ${btnActive.title === title ? 'font-bold' : ''}`}>{title}</h4>
+                    <h4 className={`text-start tablet-lg:text-2xl tablet:text-xl mobile:text-lg mobile:font-bold tablet:font-normal ${isClicked ? 'font-bold' : ''}`}>{title}</h4>
                 </div>
                 <div>
-                    {btnActive.title === title ?
-                        <p className="ml-24 w-4/5 text-sm tablet:text-lg text-start">{btnActive.description}</p> : ''}
+                    {isClicked ?
+                        <p className="tablet-lg:ml-[5.8rem] tablet:ml-[4.3rem] mobile:ml-[4rem] w-4/5 text-sm tablet-lg:text-lg tablet:text-sm text-start">{description}</p> : ''}
                 </div>
             </div>
         </div>
