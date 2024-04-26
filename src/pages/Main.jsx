@@ -9,15 +9,15 @@ import Footer from "../components/Footer.jsx";
 
 const Main = () => {
     return (
-        <>
+        <div className="w-screen overflow-hidden">
             <Header/>
             <Categories />
-            {/* <Services/> */}
-            {/* <Integration /> */}
-            <Subscription />
+            {/*<Services/>*/}
+            <Integration />
+            {/*<Subscription />*/}
             <Faqs />
             <Footer />
-        </>
+        </div>
     );
 };
 
