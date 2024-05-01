@@ -26,6 +26,12 @@ const Header = () => {
     const [isClicked, setIsClicked] = useState(false)
     const [color, setColor] = useState('')
 
+    if (isClicked) {
+        document.body.style.overflow = 'hidden'
+    } else {
+        document.body.style.overflow = 'visible'
+    }
+
     return (
         <>
             {/* header */}
